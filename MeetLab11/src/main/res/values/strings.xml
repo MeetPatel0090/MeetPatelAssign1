@@ -1,3 +1,7 @@
+<!-- Meet Patel N01460090 Section B -->
+
 <resources>
-    <string name="app_name">MeetLab1</string>
+    <string name="app_name">Meet Patel n01460090</string>
+    <string name="background_text">Welcome Meet Patel N01460090</string>
+    <string name="user_input">Enter your text</string>
 </resources>
