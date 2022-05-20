@@ -2,6 +2,8 @@
 
 package meet.patel.n01460090;
 
+import static meet.patel.n01460090.R.string.PauseStr;
+
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Context;
@@ -9,6 +11,7 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -126,6 +129,14 @@ public class MeetActivity extends AppCompatActivity {
             }
         });
 
+
+    }
+
+
+    @Override
+    protected void onPause(){
+        super.onPause();
+        Log.d(getString(R.string.PauseTag), getString(PauseStr));
 
     }
 }

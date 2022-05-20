@@ -12,4 +12,6 @@
     <string name="background_text2">My Second Screen Meet Patel N01460090</string>
     <string name="textFromFirst"></string>
     <string name="imageStr">Image</string>
+    <string name="PauseStr">Meet Patel N01460090</string>
+    <string name="PauseTag"></string>
 </resources>
