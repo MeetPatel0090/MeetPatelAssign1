@@ -14,9 +14,10 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.google.android.material.snackbar.Snackbar;
+
 public class MeetActivity extends AppCompatActivity {
 
-    //Button siteButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,6 +31,12 @@ public class MeetActivity extends AppCompatActivity {
         // Creating a button for the second button which displays a toast
         Button displayButton;
         displayButton = findViewById(R.id.MeetToastDisplayButton);
+
+        // Creating a button for the Third button which launches the second activity
+        Button actButton;
+        actButton = findViewById(R.id.MeetLaunchButton);
+
+
 
 
         // Setting up the functioning of the First button
@@ -56,20 +63,65 @@ public class MeetActivity extends AppCompatActivity {
         });
 
 
+
         // Setting up the functioning of the Second Button
-        displayButton.setOnClickListener(new View.OnClickListener(){
+        displayButton.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View v) {
 
-                EditText text;
-                text = (EditText)findViewById(R.id.MeetEditText);
-                String textToToast = text.getText().toString();
+                // Getting the text from EditText and saving it in a variable
+                EditText inputText;
+                inputText = findViewById(R.id.MeetEditText);
+                String textFromUser;
+                textFromUser = inputText.getText().toString();
 
+                // Variable for Duration of Toast
                 int duration = Toast.LENGTH_SHORT;
 
-                Toast toast = Toast.makeText(MeetActivity.this, textToToast, duration);
+                Toast toast = Toast.makeText(MeetActivity.this, textFromUser, duration);
                 toast.show();
+
+            }
+        });
+
+
+        // Setting up the functioning of the Third Button
+        actButton.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+
+                // Creating a Snackbar
+                Snackbar mySnackbar = Snackbar.make(findViewById(R.id.MeetLayout),
+                        R.string.SnackStr, Snackbar.LENGTH_LONG);
+
+                // Setting up Snackbar Function
+                mySnackbar.setAction(R.string.SnackActionStr, new View.OnClickListener() {
+
+                    // Setting up On click for the button on the Snackbar
+                    @Override
+                    public void onClick(View v) {
+                        
+                        openSecActivity();
+
+                    }
+
+                    private void openSecActivity(){
+
+                        // Getting the text from EditText and saving it in a variable
+                        EditText inputText;
+                        inputText = findViewById(R.id.MeetEditText);
+                        String textFromUser;
+                        textFromUser = inputText.getText().toString();
+
+                        Intent intent = new Intent(MeetActivity.this, PatelActivity.class);
+                        intent.putExtra("sendTextToSecActivity", textFromUser);
+                        startActivity(intent);
+                    }
+                });
+
+                mySnackbar.show();
 
             }
         });

@@ -6,4 +6,10 @@
     <string name="user_input">Enter your text</string>
     <string name="launch">Launch Site</string>
     <string name="DisplayDataInToast">Process Edit</string>
+    <string name="LaunchSecActivity">Launch Activity</string>
+    <string name="SnackStr">Meet Patel 2nd Screen</string>
+    <string name="SnackActionStr">Launch</string>
+    <string name="background_text2">My Second Screen Meet Patel N01460090</string>
+    <string name="textFromFirst"></string>
+    <string name="imageStr">Image</string>
 </resources>
