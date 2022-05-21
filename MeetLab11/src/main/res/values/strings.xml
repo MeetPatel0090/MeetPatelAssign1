@@ -1,4 +1,4 @@
-<!-- Meet Patel N01460090 Section B -->
+<!-- Meet Patel N01460090 Section RNB -->
 
 <resources>
     <string name="app_name">Meet Patel n01460090</string>
@@ -14,4 +14,5 @@
     <string name="imageStr">Image</string>
     <string name="PauseStr">Meet Patel N01460090</string>
     <string name="PauseTag"></string>
+    <string name="LaunchBtnStr">Meet Patel - Launching Wikipedia!!</string>
 </resources>

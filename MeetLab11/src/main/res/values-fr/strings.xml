@@ -1,0 +1,18 @@
+<!-- Meet Patel N01460090 Section RNB -->
+
+<resources>
+    <string name="app_name">Meet Patel n01460090</string>
+    <string name="background_text">Bienvenue Meet Patel N01460090</string>
+    <string name="user_input">Entrez votre texte</string>
+    <string name="launch">Ensemble de lancement</string>
+    <string name="DisplayDataInToast">Modification du processus</string>
+    <string name="LaunchSecActivity">Activité de lancement</string>
+    <string name="SnackStr">Meet Patel 2ème écran</string>
+    <string name="SnackActionStr">Lancer</string>
+    <string name="background_text2">Mon deuxième écran Meet Patel N01460090</string>
+    <string name="textFromFirst"></string>
+    <string name="imageStr">Image</string>
+    <string name="PauseStr">Meet Patel N01460090</string>
+    <string name="PauseTag"></string>
+    <string name="LaunchBtnStr">Meet Patel - Lancement de Wikipédi!!</string>
+</resources>

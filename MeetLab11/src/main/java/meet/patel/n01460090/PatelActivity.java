@@ -1,4 +1,4 @@
-/* Meet Patel N01460090 Section B */
+/* Meet Patel N01460090 Section RNB */
 
 package meet.patel.n01460090;
 

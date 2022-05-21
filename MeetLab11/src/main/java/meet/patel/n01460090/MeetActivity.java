@@ -1,4 +1,4 @@
-/* Meet Patel N01460090 Section B */
+/* Meet Patel N01460090 Section RNB */
 
 package meet.patel.n01460090;
 
@@ -48,7 +48,7 @@ public class MeetActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Context context;
                 context = getApplicationContext();
-                CharSequence text = "Meet Patel - Launching Wikipedia!!";
+                CharSequence text = getString(R.string.LaunchBtnStr);
                 int duration = Toast.LENGTH_SHORT;
 
                 Toast toast = Toast.makeText(context, text, duration);
@@ -136,7 +136,7 @@ public class MeetActivity extends AppCompatActivity {
     @Override
     protected void onPause(){
         super.onPause();
-        Log.d(getString(R.string.PauseTag), getString(PauseStr));
+        Log.d(getString(R.string.PauseTag), getString(R.string.PauseStr));
 
     }
 }
