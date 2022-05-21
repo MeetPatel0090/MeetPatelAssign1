@@ -15,7 +15,7 @@ public class PatelActivity extends AppCompatActivity {
         
         TextView TxtView = findViewById(R.id.MeetTextView3);
 
-        String txtView = getIntent().getStringExtra("sendTextToSecActivity");
+        String txtView = getIntent().getStringExtra(getString(R.string.secAct));
         
         TxtView.setText(txtView);
         

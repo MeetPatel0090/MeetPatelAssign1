@@ -10,9 +10,10 @@
     <string name="SnackStr">Meet Patel 2ème écran</string>
     <string name="SnackActionStr">Lancer</string>
     <string name="background_text2">Mon deuxième écran Meet Patel N01460090</string>
-    <string name="textFromFirst"></string>
+    <string name="textFromFirst">Texte de la première activité</string>
     <string name="imageStr">Image</string>
     <string name="PauseStr">Meet Patel N01460090</string>
-    <string name="PauseTag"></string>
+    <string name="PauseTag">Jour de pause</string>
     <string name="LaunchBtnStr">Meet Patel - Lancement de Wikipédi!!</string>
+    <string name="secAct">envoyer du texte à la deuxième activité</string>
 </resources>

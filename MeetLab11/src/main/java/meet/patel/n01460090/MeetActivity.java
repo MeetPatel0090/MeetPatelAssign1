@@ -119,7 +119,7 @@ public class MeetActivity extends AppCompatActivity {
                         textFromUser = inputText.getText().toString();
 
                         Intent intent = new Intent(MeetActivity.this, PatelActivity.class);
-                        intent.putExtra("sendTextToSecActivity", textFromUser);
+                        intent.putExtra(getString(R.string.secAct), textFromUser);
                         startActivity(intent);
                     }
                 });

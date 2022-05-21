@@ -10,9 +10,10 @@
     <string name="SnackStr">Meet Patel 2nd Screen</string>
     <string name="SnackActionStr">Launch</string>
     <string name="background_text2">My Second Screen Meet Patel N01460090</string>
-    <string name="textFromFirst"></string>
+    <string name="textFromFirst">Text from First Activity</string>
     <string name="imageStr">Image</string>
     <string name="PauseStr">Meet Patel N01460090</string>
-    <string name="PauseTag"></string>
+    <string name="PauseTag">Pause Tag</string>
     <string name="LaunchBtnStr">Meet Patel - Launching Wikipedia!!</string>
+    <string name="secAct">Send text to Second Activity</string>
 </resources>
